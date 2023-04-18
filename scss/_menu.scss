@@ -1,0 +1,21 @@
+header {
+    background: #5f5f5f;
+    width: 100%;
+    // column-gap: 1px;
+}
+
+.logo {
+    // background: url("/images/logo.jpg") no-repeat;
+    width: 150;
+    height: 150px;
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+
+}
+
+.navbar-collapse{
+    align-items: right;
+}
