@@ -1,0 +1,106 @@
+
+/* TITULO H1 */
+h1 {
+    color: #14213d;
+    padding: 50px;
+}
+
+
+h2 {
+    margin-block: 20px;
+    margin-left: 23px;
+    padding: 15px;
+    color: #14213d
+}
+
+
+/* estilo para los links */
+a {
+    text-decoration: none;
+    text-align: 20px;
+    color: $color-amarillo;
+
+}
+
+p{
+    margin: 20px;
+}
+
+
+.parrafoH {
+    margin: 50px;
+    padding: 10px;
+    color: #14213d;
+}
+
+.liCursos {
+    text-decoration: none;
+    font-family: $font-family_1;
+    list-style-type: none;
+}
+
+
+/* CLASE PARA MENÚ */
+.bullet {
+    text-decoration: none;
+    font-family: $font-family_1;
+    list-style-type: none;
+    color: $color-amarillo;
+}
+
+/* clase para logo de contacto whatsapp */
+.whatsapp {
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+}
+
+/*responsive del contact form*/
+
+@media (min-width:401px) and (max-width:991px) {
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .left {
+        padding: 90px 15px;
+        text-align: center;
+    }
+
+    .left h2 {
+        font-size: 25px;
+    }
+
+    .right {
+        padding: 25px;
+    }
+
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 46%;
+    }
+
+    .right button {
+        width: 150px;
+        padding: 12px 0;
+    }
+
+}
+
+
+@media (max-width:400px) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    .contactoform {
+        justify-content: left;
+        width: fit-content;
+        height: fit-content;
+    }
+}   

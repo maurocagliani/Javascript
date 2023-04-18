@@ -1,0 +1,291 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap);
+@import url(https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff);
+@import url(https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap);
+@import url(https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff);
+header {
+  background: #5f5f5f;
+  width: 100%;
+}
+
+.logo {
+  width: 150;
+  height: 150px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-collapse {
+  align-items: right;
+}
+
+body {
+  background: #b0b0b0;
+  font-family: "Marven Pro", sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  text-align: center;
+  font-family: "Marven Pro", sans-serif;
+  height: 100%;
+  padding-bottom: 70px;
+}
+
+/* TITULO H1 */
+h1 {
+  color: #14213d;
+  padding: 50px;
+}
+
+h2 {
+  margin-block: 20px;
+  margin-left: 23px;
+  padding: 15px;
+  color: #14213d;
+}
+
+/* estilo para los links */
+a {
+  text-decoration: none;
+  text-align: 20px;
+  color: #FCA311;
+}
+
+p {
+  margin: 20px;
+}
+
+.parrafoH {
+  margin: 50px;
+  padding: 10px;
+  color: #14213d;
+}
+
+.liCursos {
+  text-decoration: none;
+  font-family: "Marven Pro", sans-serif;
+  list-style-type: none;
+}
+
+/* CLASE PARA MENÚ */
+.bullet {
+  text-decoration: none;
+  font-family: "Marven Pro", sans-serif;
+  list-style-type: none;
+  color: #FCA311;
+}
+
+/* clase para logo de contacto whatsapp */
+.whatsapp {
+  position: fixed;
+  right: 1%;
+  bottom: 2%;
+}
+
+/*responsive del contact form*/
+@media (min-width: 401px) and (max-width: 991px) {
+  .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .left {
+    padding: 90px 15px;
+    text-align: center;
+  }
+  .left h2 {
+    font-size: 25px;
+  }
+  .right {
+    padding: 25px;
+  }
+  .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 46%;
+  }
+  .right button {
+    width: 150px;
+    padding: 12px 0;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .contactoform {
+    justify-content: left;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+/* FORMULARIO DE CONTACTO */
+form {
+  margin: auto;
+  align-items: center;
+}
+
+.bg-body-tertiary {
+  background: #545454;
+}
+
+.nav-link {
+  color: #FCA311;
+  text-decoration: none;
+  font-family: "Marven Pro", sans-serif;
+}
+
+.navbar-brand {
+  color: #FCA311;
+  text-decoration: none;
+  font-family: "Marven Pro", sans-serif;
+  text-shadow: #14213d;
+  color: #14213d;
+}
+
+.form-check label {
+  color: #14213d;
+}
+
+.formp {
+  color: #14213d;
+}
+
+.formp a {
+  color: #14213d;
+}
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 300;
+  --bs-btn-color: $color-amarillo;
+  --bs-btn-bg: #545454;
+  --bs-btn-border-color: #545454;
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-bg: {
+      shade-color(10%)
+  } ;
+}
+
+.form-area {
+  padding-top: 7%;
+}
+
+.row.single-form {
+  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+  margin: 10px;
+  padding: 1px;
+}
+
+.left h2 {
+  color: #14213d;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.left h2 span {
+  font-weight: 500;
+}
+
+.single-form {
+  background: #545454;
+}
+
+.right {
+  padding: 20px 20px;
+  position: relative;
+}
+
+.right i {
+  position: absolute;
+  top: 5%;
+  color: #fff;
+}
+
+.form-control {
+  border: 2px solid #000;
+}
+
+.right button {
+  border: none;
+  border-radius: 0;
+  background: #323232;
+  width: 180px;
+  color: #FCA311;
+  padding: 15px 0;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color: #FCA311;
+}
+
+.mapa {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: "Marven Pro", sans-serif;
+  color: #14213d;
+  background: #545454;
+}
+
+.footer ul li {
+  text-decoration: none;
+  font-family: "Marven Pro", sans-serif;
+  list-style-type: none;
+  color: #14213d;
+  margin-left: 10px;
+}
+
+.footer h2 {
+  margin: 0px;
+  padding: 5px;
+  color: #14213d;
+}
+
+.copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card1 {
+  background: #5f5f5f;
+  max-width: 319px;
+}
+
+.card2 {
+  background: #757575;
+  max-width: 319px;
+}
+
+.card3 {
+  background: #8e8e8e;
+  max-width: 319px;
+}
+
+.card-title {
+  font-size: 30px;
+  font-family: "Marven Pro", sans-serif;
+  color: #14213d;
+}
+
+.card-text {
+  font-size: 15px;
+  font-family: "Marven Pro", sans-serif;
+  color: #14213d;
+}
+
+/*# sourceMappingURL=estilos.css.map */

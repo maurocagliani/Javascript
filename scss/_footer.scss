@@ -1,0 +1,24 @@
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    font-family: $font-family_1;
+    color: #14213d;
+    background: #545454;
+}
+
+.footer ul li {
+    text-decoration: none;
+    font-family: $font-family_1;
+    list-style-type: none;
+    color: #14213d;
+    margin-left: 10px;
+}
+
+.footer h2 {
+    margin: 0px;
+    padding: 5px;
+    color: #14213d;
+}
+
+.copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}

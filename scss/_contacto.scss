@@ -1,0 +1,120 @@
+/* FORMULARIO DE CONTACTO */
+form {
+    margin: auto;
+    // padding-top: 2px;
+    align-items: center;
+}
+
+.bg-body-tertiary {
+    background: #545454;
+}
+
+.nav-link {
+    color: $color-amarillo;
+    text-decoration: none;
+    font-family: $font-family_1;
+}
+
+.navbar-brand {
+    color: $color-amarillo;
+    text-decoration: none;
+    font-family: $font-family_1;
+    text-shadow: #14213d;
+    color: #14213d;
+}
+
+.form-check label {
+    color: #14213d;
+}
+
+.formp {
+    color: #14213d;
+}
+
+.formp a {
+    color: #14213d;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 300;
+    --bs-btn-color: $color-amarillo;
+    --bs-btn-bg: #545454;
+    --bs-btn-border-color: #545454;
+    --bs-btn-border-radius: .5rem;
+
+    --bs-btn-hover-bg: {
+        shade-color(10%)
+    }
+
+    ;
+}
+
+.form-area {
+    padding-top: 7%;
+}
+
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+    margin: 10px;
+    padding:1px;
+}
+
+.left h2 {
+    color: #14213d;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.left h2 span {
+    font-weight: 500;
+}
+
+.single-form {
+    background: #545454;
+    ;
+}
+
+.right {
+    padding: 20px 20px;
+    position: relative;
+}
+
+.right i {
+    position: absolute;
+    top: 5%;
+    color: #fff;
+}
+
+.form-control {
+    border: 2px solid #000;
+}
+
+.right button {
+    border: none;
+    border-radius: 0;
+    background: #323232;
+    width: 180px;
+    color: $color-amarillo;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: $color-amarillo;
+}
+
+.mapa {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+
+    
+
+    
