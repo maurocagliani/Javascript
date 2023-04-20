@@ -19,7 +19,11 @@ let pilotuser = prompt("Ingrese piloto si es piloto o alumno si es alumno piloto
 let cantidadTurnos = 0;
 let avion = "avion";
 let dia = "domingo";
+<<<<<<< HEAD
 
+=======
+//s
+>>>>>>> 81b81e5 (Preentregas Javascript)
 
 //Elegir tipo de avion
 function elegirAvion(avion){
